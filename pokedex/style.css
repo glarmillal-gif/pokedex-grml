@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pokedex {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.search-box {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: white;
+    cursor: pointer;
+}
+
+.card {
+    background: #334155;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+img {
+    width: 120px;
+}
+
+.stats p {
+    margin: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

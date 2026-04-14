@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokédex Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pokedex">
+    <h1>📱 Pokédex Pro</h1>
+
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Nombre o ID">
+        <button onclick="searchPokemon()">Buscar</button>
+    </div>
+
+    <div class="card" id="card">
+        <h2 id="name"></h2>
+        <img id="sprite" src="">
+        <p id="type"></p>
+
+        <div class="stats">
+            <p id="hp"></p>
+            <p id="attack"></p>
+            <p id="defense"></p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button onclick="prevPokemon()">⬅️</button>
+        <button onclick="nextPokemon()">➡️</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>q
